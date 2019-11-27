@@ -2,8 +2,7 @@ name: Create SQL Server databases
 
 on:
   push:
-    paths:
-      - "**/az-*.yml"
+
 
 jobs:
 
