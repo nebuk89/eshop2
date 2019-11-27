@@ -20,7 +20,7 @@ Open a terminal for this folder and set up the GitHub remote:
 git init
 git add --all
 git commit -m "A template built all this!"
-git remote add origin https://github.com/bengotch/eshop.git
+git remote add origin https://github.com/nebuk89/eshop.git
 ```
 
 Push the code to GitHub. This will start workflows to create your Azure resources:
@@ -29,7 +29,7 @@ Push the code to GitHub. This will start workflows to create your Azure resource
 git push -u origin master
 ```
 
-[You can check on the workflows here](https://github.com/bengotch/eshop/actions). The actions use secrets from your repo to connect to Azure. Then they:
+[You can check on the workflows here](https://github.com/nebuk89/eshop/actions). The actions use secrets from your repo to connect to Azure. Then they:
 
 - create an AKS cluster
 - deploy [Helm](https://helm.sh) on the cluster
